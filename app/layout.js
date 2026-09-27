@@ -50,9 +50,9 @@ const getSiteTheme = () => {
 };
 
 export const metadata = {
-  title: "Jubotara News | সর্বশেষ সংবাদ ও ব্রেকিং নিউজ",
+  title: "RPC News | সর্বশেষ সংবাদ ও ব্রেকিং নিউজ",
   description:
-    "যুবতারা নিউজ বাংলাদেশের নির্ভরযোগ্য অনলাইন সংবাদমাধ্যম। সর্বশেষ জাতীয়, রাজনীতি, আন্তর্জাতিক, খেলাধুলা ও বিনোদনের খবর জানতে সঙ্গে থাকুন।",
+    "বাংলাদেশের নির্ভরযোগ্য অনলাইন সংবাদমাধ্যম। সর্বশেষ জাতীয়, রাজনীতি, আন্তর্জাতিক, খেলাধুলা ও বিনোদনের খবর জানতে সঙ্গে থাকুন।",
   alternates: {
     types: {
       "application/rss+xml": "/rss.xml",
@@ -66,7 +66,7 @@ export default async function RootLayout({ children }) {
   const siteName = (
     process.env.SITE_NAME ||
     process.env.NEXT_PUBLIC_SITE_NAME ||
-    "Jubotara"
+    "RPC"
   ).trim();
 
   return (
