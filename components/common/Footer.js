@@ -217,17 +217,17 @@ const Footer = async () => {
                     size={20}
                   />
                   <span>
-                    {address || "পশ্চিম পাড়া, গাইবান্ধা সদর, গাইবান্ধা।"}
+                    {address || "সার্কুলার রোড, গাইবান্ধা সদর, গাইবান্ধা।"}
                   </span>
                 </li>
                 <li className="flex items-center gap-3 text-sm xl:text-base">
                   <HiOutlinePhone className="text-primary shrink-0" size={20} />
-                  <span>{phone || "০১৩১৫-০৪৩৩৬১"}</span>
+                  <span>{phone || " 01318047466"}</span>
                 </li>
                 <li className="flex items-center gap-3 text-sm xl:text-base">
                   <HiOutlineMail className="text-primary shrink-0" size={20} />
                   <span className="break-all">
-                    {email || "jubotaranews@gmail.com"}
+                    {email || "reporterspressclubgaibandha@gmail.com"}
                   </span>
                 </li>
               </ul>
@@ -243,7 +243,7 @@ const Footer = async () => {
         <div className="border-t border-slate-900 pt-8 text-center md:flex md:justify-between md:text-left items-center">
           <p className="text-sm">
             © {currentYear}{" "}
-            <span className="text-white font-semibold">যুবতারা নিউজ</span> |
+            <span className="text-white font-semibold">RPC News</span> |
             সর্বস্বত্ব সংরক্ষিত।
           </p>
           <div className="mt-4 md:mt-0 flex justify-center md:justify-end gap-6 text-sm">
