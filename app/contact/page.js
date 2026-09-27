@@ -139,11 +139,11 @@ export default function ContactPage() {
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="text-center p-6 bg-gray-50 rounded-lg">
                         <h3 className="font-bold text-lg mb-2">আমাদের ঠিকানা</h3>
-                        <p className="text-gray-600">গাইবান্ধা সদর, গাইবান্ধা।</p>
+                        <p className="text-gray-600">সার্কুলার রোড, গাইবান্ধা সদর, গাইবান্ধা।</p>
                     </div>
                     <div className="text-center p-6 bg-gray-50 rounded-lg">
                         <h3 className="font-bold text-lg mb-2">ইমেইল করুন</h3>
-                        <p className="text-gray-600">jubotaranews@gmail.com</p>
+                        <p className="text-gray-600">reporterspressclubgaibandha@gmail.com</p>
                     </div>
                 </div>
             </div>
