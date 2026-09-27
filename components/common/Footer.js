@@ -222,7 +222,7 @@ const Footer = async () => {
                 </li>
                 <li className="flex items-center gap-3 text-sm xl:text-base">
                   <HiOutlinePhone className="text-primary shrink-0" size={20} />
-                  <span>{phone || " 01318047466"}</span>
+                  <span>{phone || " 01318047466, 01768906851"}</span>
                 </li>
                 <li className="flex items-center gap-3 text-sm xl:text-base">
                   <HiOutlineMail className="text-primary shrink-0" size={20} />
