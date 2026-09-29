@@ -1,6 +1,6 @@
 import Link from "next/link";
 import jtLogo from "@/public/images/jtLogo.png";
-import rpcLogo from "@/public/images/rpcLogo.jpg";
+import rpcLogo from "@/public/images/rpcLogo.png";
 
 const Logo = ({ className }) => {
   const siteName = (
